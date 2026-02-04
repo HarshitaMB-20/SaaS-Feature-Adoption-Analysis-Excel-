@@ -1,61 +1,71 @@
-# 📊 Product Feature Adoption Analysis (SaaS User Engagement)
+# Product Feature Adoption Analysis (SaaS User Engagement Case Study)
 
-## 📌 Overview
-
-This project analyzes **user engagement and feature adoption** using a large-scale real-world dataset from an online learning platform. The objective is to understand how users progress through a product feature funnel and identify key markets with strong engagement, simulating a **SaaS product environment similar to creator platforms like Graphy**.
-
----
-
-## 🎯 Business Objective
-
-* Measure **feature adoption** using a clear, data-backed definition of “active users”
-* Analyze engagement across **geographic segments**
-* Translate data insights into **product-level recommendations**
+## Overview
+This project analyzes user engagement and feature adoption using a large-scale real-world dataset from an online learning platform. 
+The analysis simulates a SaaS product environment similar to creator platforms like Graphy, focusing on how users progress through a feature adoption funnel.
 
 ---
 
-## 📁 Dataset
-
-* Source: Public user engagement dataset (Kaggle / edX MOOCs)
-* Size: **600,000+ user records**
-* Key attributes:
-
-  * User activity flags (registered, viewed, explored, certified)
-  * Engagement metrics (days active, events)
-  * User geography (country)
+## Business Objective
+- Measure feature adoption using a clear definition of “active users”
+- Track a core SaaS KPI (Feature Adoption Rate)
+- Identify high-engagement regions through geographic segmentation
+- Translate data insights into actionable product recommendations
 
 ---
 
-## 🛠 Tools Used
-
-* **Microsoft Excel**
-
-  * Data cleaning
-  * Pivot Tables
-  * KPI calculation
-  * Segmentation analysis
-
-(No programming or BI tools were used to keep the analysis business-focused.)
+## Dataset
+- Source: Public user engagement dataset (Kaggle / edX MOOCs)
+- Size: 600,000+ user records
+- The raw dataset is not included in this repository due to file size limitations (>25MB).
+- The analysis is fully reproducible using the publicly available dataset source.
 
 ---
 
-## 📊 Analysis Performed
-
-1. Created a **feature adoption funnel** using user activity flags
-2. Calculated a core SaaS KPI:
-
-   * **Feature Adoption Rate = 62%**
-3. Segmented active users by **country**
-4. Ranked regions by engagement to identify high-adoption markets
+## Key Definitions
+- Active User: A user who has viewed course content
+- Feature Adoption Rate = Active Users / Total Users
 
 ---
 
-## 🔍 Key Insights
+## Tools Used
+- Microsoft Excel
+  - Data cleaning
+  - Pivot Tables
+  - KPI calculation
+  - Segmentation analysis
 
-* Overall feature adoption rate stands at **62%**, indicating strong user engagement
-* Highest adoption observed in:
+---
 
-  * **United States**
-  * **India**
-* Engagement is strongest in English-speaking and emerging markets, suggesting opportunities for targeted onboarding and growth strategies
+## Analysis Summary
+- Defined an activity-based feature adoption funnel
+- Calculated Feature Adoption Rate = 62%
+- Segmented adoption by country to identify regional engagement patterns
+- Ranked regions based on active user counts
 
+---
+
+## Key Insights
+- Overall feature adoption rate is 62%, indicating strong engagement
+- Highest adoption observed in the United States and India
+- English-speaking and emerging markets show stronger product usage
+
+---
+
+## Product Recommendations
+- Improve onboarding flows for lower-adoption regions
+- Highlight feature value earlier in the user journey
+- Use geographic insights to guide market-specific product decisions
+
+---
+
+## Repository Notes
+Due to GitHub file size limits, the original dataset is not included.
+Screenshots of the analysis and results are provided for reference.
+
+---
+
+## Author
+Harshita M. B  
+Aspiring Product / Program Management Intern  
+Bengaluru, India
